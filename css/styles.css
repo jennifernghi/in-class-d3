@@ -11797,4 +11797,5 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-color: #00d5ff;
   color: #ffffff;
   line-height: 2.5em;
+  white-space:nowrap;
 }
