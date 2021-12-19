@@ -11802,6 +11802,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   line-height: 2.5em;
   white-space:nowrap;
 }
+
+ 
+.pill-badge2{
+  font-style: italic;;
+}
 .logo1{
   width: 20px;
   height: 20px;
