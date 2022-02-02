@@ -22,7 +22,15 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YHN0GHNDMF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-YHN0GHNDMF');
+  </script>
 </head>
 <body id="page-top">
     <!-- Navigation-->
@@ -65,7 +73,7 @@
     <!-- skills-->
     <section class="page-section" id="resume">
         <div class="container">
-         <div class="container">
+           <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Skills</h2>
                 <h3 class="section-subheading text-muted"></h3>
@@ -361,83 +369,83 @@
 
                             <div class="row">
                                 <div class="col-12"> 
-                                 <div class="portfolio-item">
-                                  <iframe  style="width: 50vw;height: 50vh ;position: relative;" src="https://www.youtube.com/embed/rq9Wplk5Acg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                  <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">Youtube Presentation</div>
+                                   <div class="portfolio-item">
+                                      <iframe  style="width: 50vw;height: 50vh ;position: relative;" src="https://www.youtube.com/embed/rq9Wplk5Acg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                      <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">Youtube Presentation</div>
+                                        <div class="portfolio-caption-subheading text-muted"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6 mb-4">
+                                <!-- Portfolio item 3-->
+                                <div class="portfolio-item">
+                                    <img class="img-fluid" src="assets/img/portfolio/loan_prediction/results.png" alt="Results" />
+                                    <div class="portfolio-caption">
+                                        <div class="portfolio-caption-heading">Evaluation Results</div>
+                                        <div class="portfolio-caption-subheading text-muted"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 mb-4">
+                                <!-- Portfolio item 1-->
+                                <div class="portfolio-item">
+                                   <img class="img-fluid" src="assets/img/portfolio/loan_prediction/roc.png" alt="ROC"  />
+                                   <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">ROC-AUC</div>
                                     <div class="portfolio-caption-subheading text-muted"> </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <br/>
-                    <div class="row">
                         <div class="col-lg-4 col-sm-6 mb-4">
-                            <!-- Portfolio item 3-->
+                            <!-- Portfolio item 2-->
                             <div class="portfolio-item">
-                                <img class="img-fluid" src="assets/img/portfolio/loan_prediction/results.png" alt="Results" />
+                                <img class="img-fluid" src="assets/img/portfolio/loan_prediction/curve.png" alt="Learning Curve"  />
                                 <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">Evaluation Results</div>
+                                    <div class="portfolio-caption-heading">Learning Curves</div>
                                     <div class="portfolio-caption-subheading text-muted"> </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <!-- Portfolio item 1-->
-                            <div class="portfolio-item">
-                             <img class="img-fluid" src="assets/img/portfolio/loan_prediction/roc.png" alt="ROC"  />
-                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">ROC-AUC</div>
-                                <div class="portfolio-caption-subheading text-muted"> </div>
-                            </div>
-                        </div>
+                        </div> 
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <!-- Portfolio item 2-->
-                        <div class="portfolio-item">
-                            <img class="img-fluid" src="assets/img/portfolio/loan_prediction/curve.png" alt="Learning Curve"  />
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Learning Curves</div>
-                                <div class="portfolio-caption-subheading text-muted"> </div>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
 
-                <ul style="text-align: left">
-                    <li> 
-                        SJSU DATA 245 final group project. 
+                    <ul style="text-align: left">
+                        <li> 
+                            SJSU DATA 245 final group project. 
+                        </li>
+                        <li>
+                            CRISP-DM cycle is applied for project development.
+                        </li>
+                        <li> 
+                            Apply various ML models to solve this problem: decision tree, logistic regression, ADABoost and gradient boosting.
+                        </li>
+                        <li>
+                           <strong>Goals:</strong> to predict who would qualify for a loan approval based on descriptive features.
+                       </li>
+                       <li> 
+                        Final model selection: tunned logistic regression model.
                     </li>
-                    <li>
-                        CRISP-DM cycle is applied for project development.
-                    </li>
-                    <li> 
-                        Apply various ML models to solve this problem: decision tree, logistic regression, ADABoost and gradient boosting.
-                    </li>
-                    <li>
-                     <strong>Goals:</strong> to predict who would qualify for a loan approval based on descriptive features.
-                 </li>
-                 <li> 
-                    Final model selection: tunned logistic regression model.
+                </ul> 
+                <hr/>
+                <ul class="list-inline">
+                 <li>
+                    <strong>Technologies:</strong>
+                    Python, Scikit-learn libraries, Google Colab, Supervised Machine Learning Models.
+                </li> 
+                <li>
+                    <strong>Category:</strong>
+                    Data Science
                 </li>
-            </ul> 
-            <hr/>
-            <ul class="list-inline">
-               <li>
-                <strong>Technologies:</strong>
-                Python, Scikit-learn libraries, Google Colab, Supervised Machine Learning Models.
-            </li> 
-            <li>
-                <strong>Category:</strong>
-                Data Science
-            </li>
-        </ul>
-        <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-            <i class="fas fa-times me-1"></i>
-            Close Project
-        </button>
+            </ul>
+            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                <i class="fas fa-times me-1"></i>
+                Close Project
+            </button>
+        </div>
     </div>
-</div>
 </div>
 </div>
 </div>
@@ -469,8 +477,8 @@
                                 <div class="col-6">
                                     <!-- Portfolio item 1-->
                                     <div class="portfolio-item">
-                                     <img class="img-fluid" src="assets/img/portfolio/ca_real_estate/inventory.png" alt="Market inventory pre vs post pandemic"  />
-                                     <div class="portfolio-caption">
+                                       <img class="img-fluid" src="assets/img/portfolio/ca_real_estate/inventory.png" alt="Market inventory pre vs post pandemic"  />
+                                       <div class="portfolio-caption">
                                         <div class="portfolio-caption-heading">Story 2: Market inventory pre vs post pandemic</div>
                                         <div class="portfolio-caption-subheading text-muted"> </div>
                                     </div>
@@ -502,21 +510,21 @@
                             <li>Look at CA real estate market in 4 perspective: 
                                 <ul >
                                     <li>
-                                       Story 1: How has the pandemic affected market hotness in California?
-                                   </li>
-                                   <li>
-                                       Story 2: How has the pandemic affected market inventory in California?
-                                   </li>
-                                   <li>
-                                       Story 3: Fast selling market vs slow selling market
-                                   </li>
-                                   <li>
-                                       Story 4: California market performance in 2020 vs 2021
-                                   </li>
-                               </ul>
-                           </li>
-                           <li>Dataset: Realtor's zipcode hotness and inventory dataset. <a href="https://www.realtor.com/research/data/" target="_blank">Link</a></li>
-                           <li>Live Demo: <a href="https://public.tableau.com/views/Californiarealestatemarketstory/Californiarealestatemarketstory?:language=en-US&:display_count=n&:origin=viz_share_link
+                                     Story 1: How has the pandemic affected market hotness in California?
+                                 </li>
+                                 <li>
+                                     Story 2: How has the pandemic affected market inventory in California?
+                                 </li>
+                                 <li>
+                                     Story 3: Fast selling market vs slow selling market
+                                 </li>
+                                 <li>
+                                     Story 4: California market performance in 2020 vs 2021
+                                 </li>
+                             </ul>
+                         </li>
+                         <li>Dataset: Realtor's zipcode hotness and inventory dataset. <a href="https://www.realtor.com/research/data/" target="_blank">Link</a></li>
+                         <li>Live Demo: <a href="https://public.tableau.com/views/Californiarealestatemarketstory/Californiarealestatemarketstory?:language=en-US&:display_count=n&:origin=viz_share_link
                             " target="_blank">Click Here</a></li>
 
                             <li>Documentation: <a href="https://docs.google.com/document/d/1RrdupZN9axkcDYk3wcy8V5rBCqaOTwNscahPZ7eUPik/edit?usp=sharing" target="_blank">Click Here</a></li>
@@ -524,7 +532,7 @@
                         <hr/>
 
                         <ul class="list-inline">
-                           <li>
+                         <li>
                             <strong>Technologies:</strong>
                             Tableau, Bigquery.
                         </li> 
@@ -577,7 +585,7 @@
                             </ul>
                             <hr/>
                             <ul class="list-inline">
-                               <li>
+                             <li>
                                 <strong>Technologies:</strong>
                                 PHP, SQL, HTML, CSS, Javascript, Netsmart Avatar, Fusion Chart, PowerBI.
                             </li>
@@ -702,7 +710,7 @@
                                 <br/>
                                 <hr/>
                                 <ul class="list-inline">
-                                   <li>
+                                 <li>
                                     <strong>Technologies:</strong>
                                     Tableau, GCP Bigquery, GCP storage, Google Colab, Scikit-learn's ML libraries (GaussianNB, KNeighborsClassifier, OneVsRestClassifier, SVC).
                                 </li> 
